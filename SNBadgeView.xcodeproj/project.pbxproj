@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EB0023C209F6C1A003E8AF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB0023B209F6C1A003E8AF8 /* AppDelegate.m */; };
+		5EB0023F209F6C1A003E8AF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB0023E209F6C1A003E8AF8 /* ViewController.m */; };
+		5EB00242209F6C1A003E8AF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB00240209F6C1A003E8AF8 /* Main.storyboard */; };
+		5EB00244209F6C1B003E8AF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB00243209F6C1B003E8AF8 /* Assets.xcassets */; };
+		5EB00247209F6C1B003E8AF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB00245209F6C1B003E8AF8 /* LaunchScreen.storyboard */; };
+		5EB0024A209F6C1B003E8AF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB00249209F6C1B003E8AF8 /* main.m */; };
+		5EB00254209F6C1B003E8AF8 /* SNBadgeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB00253209F6C1B003E8AF8 /* SNBadgeViewTests.m */; };
+		5EB0025F209F6C1B003E8AF8 /* SNBadgeViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB0025E209F6C1B003E8AF8 /* SNBadgeViewUITests.m */; };
+		5EB00288209F9B22003E8AF8 /* UITabBarItem+SNBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB0027F209F9B21003E8AF8 /* UITabBarItem+SNBadgeView.m */; };
+		5EB00289209F9B22003E8AF8 /* SNBadgeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB00283209F9B22003E8AF8 /* SNBadgeButton.m */; };
+		5EB0028A209F9B22003E8AF8 /* UIBarButtonItem+SNBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB00284209F9B22003E8AF8 /* UIBarButtonItem+SNBadgeView.m */; };
+		5EB0028B209F9B22003E8AF8 /* UIButton+SNBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB00286209F9B22003E8AF8 /* UIButton+SNBadgeView.m */; };
+		5EB0028C209F9B22003E8AF8 /* UIView+SNBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB00287209F9B22003E8AF8 /* UIView+SNBadgeView.m */; };
+		5EB00292209F9BFC003E8AF8 /* SNBadgeViewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB00291209F9BFC003E8AF8 /* SNBadgeViewTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EB00250209F6C1B003E8AF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EB0022F209F6C1A003E8AF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EB00236209F6C1A003E8AF8;
+			remoteInfo = SNBadgeView;
+		};
+		5EB0025B209F6C1B003E8AF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EB0022F209F6C1A003E8AF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EB00236209F6C1A003E8AF8;
+			remoteInfo = SNBadgeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EB00237209F6C1A003E8AF8 /* SNBadgeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNBadgeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB0023A209F6C1A003E8AF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5EB0023B209F6C1A003E8AF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5EB0023D209F6C1A003E8AF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5EB0023E209F6C1A003E8AF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5EB00241209F6C1A003E8AF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EB00243209F6C1B003E8AF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EB00246209F6C1B003E8AF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EB00248209F6C1B003E8AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EB00249209F6C1B003E8AF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EB0024F209F6C1B003E8AF8 /* SNBadgeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNBadgeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB00253209F6C1B003E8AF8 /* SNBadgeViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNBadgeViewTests.m; sourceTree = "<group>"; };
+		5EB00255209F6C1B003E8AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EB0025A209F6C1B003E8AF8 /* SNBadgeViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNBadgeViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB0025E209F6C1B003E8AF8 /* SNBadgeViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNBadgeViewUITests.m; sourceTree = "<group>"; };
+		5EB00260209F6C1B003E8AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EB0027D209F9B21003E8AF8 /* UIButton+SNBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SNBadgeView.h"; sourceTree = "<group>"; };
+		5EB0027E209F9B21003E8AF8 /* UITabBarItem+SNBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+SNBadgeView.h"; sourceTree = "<group>"; };
+		5EB0027F209F9B21003E8AF8 /* UITabBarItem+SNBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+SNBadgeView.m"; sourceTree = "<group>"; };
+		5EB00280209F9B21003E8AF8 /* UIView+SNBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SNBadgeView.h"; sourceTree = "<group>"; };
+		5EB00281209F9B22003E8AF8 /* SNBadgeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNBadgeButton.h; sourceTree = "<group>"; };
+		5EB00282209F9B22003E8AF8 /* UIBarButtonItem+SNBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+SNBadgeView.h"; sourceTree = "<group>"; };
+		5EB00283209F9B22003E8AF8 /* SNBadgeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNBadgeButton.m; sourceTree = "<group>"; };
+		5EB00284209F9B22003E8AF8 /* UIBarButtonItem+SNBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+SNBadgeView.m"; sourceTree = "<group>"; };
+		5EB00286209F9B22003E8AF8 /* UIButton+SNBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SNBadgeView.m"; sourceTree = "<group>"; };
+		5EB00287209F9B22003E8AF8 /* UIView+SNBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SNBadgeView.m"; sourceTree = "<group>"; };
+		5EB00290209F9BFC003E8AF8 /* SNBadgeViewTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNBadgeViewTool.h; sourceTree = "<group>"; };
+		5EB00291209F9BFC003E8AF8 /* SNBadgeViewTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNBadgeViewTool.m; sourceTree = "<group>"; };
+		5EB00294209FAAE3003E8AF8 /* SNBadgeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNBadgeView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EB00234209F6C1A003E8AF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB0024C209F6C1B003E8AF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB00257209F6C1B003E8AF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EB0022E209F6C1A003E8AF8 = {
+			isa = PBXGroup;
+			children = (
+				5EB00239209F6C1A003E8AF8 /* SNBadgeView */,
+				5EB00252209F6C1B003E8AF8 /* SNBadgeViewTests */,
+				5EB0025D209F6C1B003E8AF8 /* SNBadgeViewUITests */,
+				5EB00238209F6C1A003E8AF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EB00238209F6C1A003E8AF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EB00237209F6C1A003E8AF8 /* SNBadgeView.app */,
+				5EB0024F209F6C1B003E8AF8 /* SNBadgeViewTests.xctest */,
+				5EB0025A209F6C1B003E8AF8 /* SNBadgeViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EB00239209F6C1A003E8AF8 /* SNBadgeView */ = {
+			isa = PBXGroup;
+			children = (
+				5EB0023A209F6C1A003E8AF8 /* AppDelegate.h */,
+				5EB0023B209F6C1A003E8AF8 /* AppDelegate.m */,
+				5EB0023D209F6C1A003E8AF8 /* ViewController.h */,
+				5EB0023E209F6C1A003E8AF8 /* ViewController.m */,
+				5EB0026C209F6C35003E8AF8 /* SNBadgeView */,
+				5EB00240209F6C1A003E8AF8 /* Main.storyboard */,
+				5EB00243209F6C1B003E8AF8 /* Assets.xcassets */,
+				5EB00245209F6C1B003E8AF8 /* LaunchScreen.storyboard */,
+				5EB00248209F6C1B003E8AF8 /* Info.plist */,
+				5EB00249209F6C1B003E8AF8 /* main.m */,
+			);
+			path = SNBadgeView;
+			sourceTree = "<group>";
+		};
+		5EB00252209F6C1B003E8AF8 /* SNBadgeViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EB00253209F6C1B003E8AF8 /* SNBadgeViewTests.m */,
+				5EB00255209F6C1B003E8AF8 /* Info.plist */,
+			);
+			path = SNBadgeViewTests;
+			sourceTree = "<group>";
+		};
+		5EB0025D209F6C1B003E8AF8 /* SNBadgeViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EB0025E209F6C1B003E8AF8 /* SNBadgeViewUITests.m */,
+				5EB00260209F6C1B003E8AF8 /* Info.plist */,
+			);
+			path = SNBadgeViewUITests;
+			sourceTree = "<group>";
+		};
+		5EB0026C209F6C35003E8AF8 /* SNBadgeView */ = {
+			isa = PBXGroup;
+			children = (
+				5EB00294209FAAE3003E8AF8 /* SNBadgeView.h */,
+				5EB00281209F9B22003E8AF8 /* SNBadgeButton.h */,
+				5EB00283209F9B22003E8AF8 /* SNBadgeButton.m */,
+				5EB0027D209F9B21003E8AF8 /* UIButton+SNBadgeView.h */,
+				5EB00286209F9B22003E8AF8 /* UIButton+SNBadgeView.m */,
+				5EB0027E209F9B21003E8AF8 /* UITabBarItem+SNBadgeView.h */,
+				5EB0027F209F9B21003E8AF8 /* UITabBarItem+SNBadgeView.m */,
+				5EB00282209F9B22003E8AF8 /* UIBarButtonItem+SNBadgeView.h */,
+				5EB00284209F9B22003E8AF8 /* UIBarButtonItem+SNBadgeView.m */,
+				5EB00280209F9B21003E8AF8 /* UIView+SNBadgeView.h */,
+				5EB00287209F9B22003E8AF8 /* UIView+SNBadgeView.m */,
+				5EB00290209F9BFC003E8AF8 /* SNBadgeViewTool.h */,
+				5EB00291209F9BFC003E8AF8 /* SNBadgeViewTool.m */,
+			);
+			path = SNBadgeView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EB00236209F6C1A003E8AF8 /* SNBadgeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB00263209F6C1B003E8AF8 /* Build configuration list for PBXNativeTarget "SNBadgeView" */;
+			buildPhases = (
+				5EB00233209F6C1A003E8AF8 /* Sources */,
+				5EB00234209F6C1A003E8AF8 /* Frameworks */,
+				5EB00235209F6C1A003E8AF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SNBadgeView;
+			productName = SNBadgeView;
+			productReference = 5EB00237209F6C1A003E8AF8 /* SNBadgeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EB0024E209F6C1B003E8AF8 /* SNBadgeViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB00266209F6C1B003E8AF8 /* Build configuration list for PBXNativeTarget "SNBadgeViewTests" */;
+			buildPhases = (
+				5EB0024B209F6C1B003E8AF8 /* Sources */,
+				5EB0024C209F6C1B003E8AF8 /* Frameworks */,
+				5EB0024D209F6C1B003E8AF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EB00251209F6C1B003E8AF8 /* PBXTargetDependency */,
+			);
+			name = SNBadgeViewTests;
+			productName = SNBadgeViewTests;
+			productReference = 5EB0024F209F6C1B003E8AF8 /* SNBadgeViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EB00259209F6C1B003E8AF8 /* SNBadgeViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB00269209F6C1B003E8AF8 /* Build configuration list for PBXNativeTarget "SNBadgeViewUITests" */;
+			buildPhases = (
+				5EB00256209F6C1B003E8AF8 /* Sources */,
+				5EB00257209F6C1B003E8AF8 /* Frameworks */,
+				5EB00258209F6C1B003E8AF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EB0025C209F6C1B003E8AF8 /* PBXTargetDependency */,
+			);
+			name = SNBadgeViewUITests;
+			productName = SNBadgeViewUITests;
+			productReference = 5EB0025A209F6C1B003E8AF8 /* SNBadgeViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EB0022F209F6C1A003E8AF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = snloveydus;
+				TargetAttributes = {
+					5EB00236209F6C1A003E8AF8 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					5EB0024E209F6C1B003E8AF8 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 5EB00236209F6C1A003E8AF8;
+					};
+					5EB00259209F6C1B003E8AF8 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 5EB00236209F6C1A003E8AF8;
+					};
+				};
+			};
+			buildConfigurationList = 5EB00232209F6C1A003E8AF8 /* Build configuration list for PBXProject "SNBadgeView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EB0022E209F6C1A003E8AF8;
+			productRefGroup = 5EB00238209F6C1A003E8AF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EB00236209F6C1A003E8AF8 /* SNBadgeView */,
+				5EB0024E209F6C1B003E8AF8 /* SNBadgeViewTests */,
+				5EB00259209F6C1B003E8AF8 /* SNBadgeViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EB00235209F6C1A003E8AF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB00247209F6C1B003E8AF8 /* LaunchScreen.storyboard in Resources */,
+				5EB00244209F6C1B003E8AF8 /* Assets.xcassets in Resources */,
+				5EB00242209F6C1A003E8AF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB0024D209F6C1B003E8AF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB00258209F6C1B003E8AF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EB00233209F6C1A003E8AF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB0023F209F6C1A003E8AF8 /* ViewController.m in Sources */,
+				5EB0028A209F9B22003E8AF8 /* UIBarButtonItem+SNBadgeView.m in Sources */,
+				5EB0028B209F9B22003E8AF8 /* UIButton+SNBadgeView.m in Sources */,
+				5EB0028C209F9B22003E8AF8 /* UIView+SNBadgeView.m in Sources */,
+				5EB00288209F9B22003E8AF8 /* UITabBarItem+SNBadgeView.m in Sources */,
+				5EB00292209F9BFC003E8AF8 /* SNBadgeViewTool.m in Sources */,
+				5EB00289209F9B22003E8AF8 /* SNBadgeButton.m in Sources */,
+				5EB0024A209F6C1B003E8AF8 /* main.m in Sources */,
+				5EB0023C209F6C1A003E8AF8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB0024B209F6C1B003E8AF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB00254209F6C1B003E8AF8 /* SNBadgeViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB00256209F6C1B003E8AF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB0025F209F6C1B003E8AF8 /* SNBadgeViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EB00251209F6C1B003E8AF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EB00236209F6C1A003E8AF8 /* SNBadgeView */;
+			targetProxy = 5EB00250209F6C1B003E8AF8 /* PBXContainerItemProxy */;
+		};
+		5EB0025C209F6C1B003E8AF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EB00236209F6C1A003E8AF8 /* SNBadgeView */;
+			targetProxy = 5EB0025B209F6C1B003E8AF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EB00240209F6C1A003E8AF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EB00241209F6C1A003E8AF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EB00245209F6C1B003E8AF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EB00246209F6C1B003E8AF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EB00261209F6C1B003E8AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5EB00262209F6C1B003E8AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EB00264209F6C1B003E8AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNBadgeView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNBadgeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EB00265209F6C1B003E8AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNBadgeView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNBadgeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EB00267209F6C1B003E8AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNBadgeViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNBadgeViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNBadgeView.app/SNBadgeView";
+			};
+			name = Debug;
+		};
+		5EB00268209F6C1B003E8AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNBadgeViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNBadgeViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNBadgeView.app/SNBadgeView";
+			};
+			name = Release;
+		};
+		5EB0026A209F6C1B003E8AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNBadgeViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNBadgeViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SNBadgeView;
+			};
+			name = Debug;
+		};
+		5EB0026B209F6C1B003E8AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNBadgeViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNBadgeViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SNBadgeView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EB00232209F6C1A003E8AF8 /* Build configuration list for PBXProject "SNBadgeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB00261209F6C1B003E8AF8 /* Debug */,
+				5EB00262209F6C1B003E8AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EB00263209F6C1B003E8AF8 /* Build configuration list for PBXNativeTarget "SNBadgeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB00264209F6C1B003E8AF8 /* Debug */,
+				5EB00265209F6C1B003E8AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EB00266209F6C1B003E8AF8 /* Build configuration list for PBXNativeTarget "SNBadgeViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB00267209F6C1B003E8AF8 /* Debug */,
+				5EB00268209F6C1B003E8AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EB00269209F6C1B003E8AF8 /* Build configuration list for PBXNativeTarget "SNBadgeViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB0026A209F6C1B003E8AF8 /* Debug */,
+				5EB0026B209F6C1B003E8AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EB0022F209F6C1A003E8AF8 /* Project object */;
+}
