@@ -16,7 +16,7 @@
 		5EB00254209F6C1B003E8AF8 /* SNBadgeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB00253209F6C1B003E8AF8 /* SNBadgeViewTests.m */; };
 		5EB0025F209F6C1B003E8AF8 /* SNBadgeViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB0025E209F6C1B003E8AF8 /* SNBadgeViewUITests.m */; };
 		5EB00288209F9B22003E8AF8 /* UITabBarItem+SNBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB0027F209F9B21003E8AF8 /* UITabBarItem+SNBadgeView.m */; };
-		5EB00289209F9B22003E8AF8 /* SNBadgeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB00283209F9B22003E8AF8 /* SNBadgeButton.m */; };
+		5EB00289209F9B22003E8AF8 /* SNBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB00283209F9B22003E8AF8 /* SNBadgeView.m */; };
 		5EB0028A209F9B22003E8AF8 /* UIBarButtonItem+SNBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB00284209F9B22003E8AF8 /* UIBarButtonItem+SNBadgeView.m */; };
 		5EB0028B209F9B22003E8AF8 /* UIButton+SNBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB00286209F9B22003E8AF8 /* UIButton+SNBadgeView.m */; };
 		5EB0028C209F9B22003E8AF8 /* UIView+SNBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB00287209F9B22003E8AF8 /* UIView+SNBadgeView.m */; };
@@ -61,15 +61,14 @@
 		5EB0027E209F9B21003E8AF8 /* UITabBarItem+SNBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+SNBadgeView.h"; sourceTree = "<group>"; };
 		5EB0027F209F9B21003E8AF8 /* UITabBarItem+SNBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+SNBadgeView.m"; sourceTree = "<group>"; };
 		5EB00280209F9B21003E8AF8 /* UIView+SNBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SNBadgeView.h"; sourceTree = "<group>"; };
-		5EB00281209F9B22003E8AF8 /* SNBadgeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNBadgeButton.h; sourceTree = "<group>"; };
+		5EB00281209F9B22003E8AF8 /* SNBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNBadgeView.h; sourceTree = "<group>"; };
 		5EB00282209F9B22003E8AF8 /* UIBarButtonItem+SNBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+SNBadgeView.h"; sourceTree = "<group>"; };
-		5EB00283209F9B22003E8AF8 /* SNBadgeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNBadgeButton.m; sourceTree = "<group>"; };
+		5EB00283209F9B22003E8AF8 /* SNBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNBadgeView.m; sourceTree = "<group>"; };
 		5EB00284209F9B22003E8AF8 /* UIBarButtonItem+SNBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+SNBadgeView.m"; sourceTree = "<group>"; };
 		5EB00286209F9B22003E8AF8 /* UIButton+SNBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SNBadgeView.m"; sourceTree = "<group>"; };
 		5EB00287209F9B22003E8AF8 /* UIView+SNBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SNBadgeView.m"; sourceTree = "<group>"; };
 		5EB00290209F9BFC003E8AF8 /* SNBadgeViewTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNBadgeViewTool.h; sourceTree = "<group>"; };
 		5EB00291209F9BFC003E8AF8 /* SNBadgeViewTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNBadgeViewTool.m; sourceTree = "<group>"; };
-		5EB00294209FAAE3003E8AF8 /* SNBadgeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNBadgeView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,9 +154,8 @@
 		5EB0026C209F6C35003E8AF8 /* SNBadgeView */ = {
 			isa = PBXGroup;
 			children = (
-				5EB00294209FAAE3003E8AF8 /* SNBadgeView.h */,
-				5EB00281209F9B22003E8AF8 /* SNBadgeButton.h */,
-				5EB00283209F9B22003E8AF8 /* SNBadgeButton.m */,
+				5EB00281209F9B22003E8AF8 /* SNBadgeView.h */,
+				5EB00283209F9B22003E8AF8 /* SNBadgeView.m */,
 				5EB0027D209F9B21003E8AF8 /* UIButton+SNBadgeView.h */,
 				5EB00286209F9B22003E8AF8 /* UIButton+SNBadgeView.m */,
 				5EB0027E209F9B21003E8AF8 /* UITabBarItem+SNBadgeView.h */,
@@ -308,7 +306,7 @@
 				5EB0028C209F9B22003E8AF8 /* UIView+SNBadgeView.m in Sources */,
 				5EB00288209F9B22003E8AF8 /* UITabBarItem+SNBadgeView.m in Sources */,
 				5EB00292209F9BFC003E8AF8 /* SNBadgeViewTool.m in Sources */,
-				5EB00289209F9B22003E8AF8 /* SNBadgeButton.m in Sources */,
+				5EB00289209F9B22003E8AF8 /* SNBadgeView.m in Sources */,
 				5EB0024A209F6C1B003E8AF8 /* main.m in Sources */,
 				5EB0023C209F6C1A003E8AF8 /* AppDelegate.m in Sources */,
 			);

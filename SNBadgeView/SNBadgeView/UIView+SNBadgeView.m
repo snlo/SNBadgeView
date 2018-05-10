@@ -12,14 +12,14 @@
 
 @implementation UIView (SNBadgeView)
 
-- (void)setSn_badgeView:(SNBadgeButton *)sn_badgeView {
+- (void)setSn_badgeView:(SNBadgeView *)sn_badgeView {
     objc_setAssociatedObject(self, @selector(sn_badgeView), sn_badgeView, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
-- (SNBadgeButton *)sn_badgeView {
-    SNBadgeButton * badgeView = objc_getAssociatedObject(self, _cmd);
+- (SNBadgeView *)sn_badgeView {
+    SNBadgeView * badgeView = objc_getAssociatedObject(self, _cmd);
     if (!badgeView) {
-        badgeView = [SNBadgeButton badgeView];
+        badgeView = [SNBadgeView badgeView];
         
         [self addSubview:badgeView];
         [self bringSubviewToFront:badgeView];
@@ -27,7 +27,6 @@
         
         objc_setAssociatedObject(self, _cmd, badgeView, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     }
-    
     return badgeView;
 }
 

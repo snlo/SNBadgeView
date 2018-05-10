@@ -37,5 +37,10 @@ static id instanse;
 		_hinthColor = [UIColor redColor];
 	} return _hinthColor;
 }
+- (UIColor *)numberColor {
+    if (!_numberColor) {
+        _numberColor = [UIColor whiteColor];
+    } return _numberColor;
+}
 
 @end

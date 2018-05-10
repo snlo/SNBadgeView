@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-#import "SNBadgeButton.h"
+#import "SNBadgeView.h"
 
 @interface UIView (SNBadgeView)
 
-@property (nonatomic, strong) SNBadgeButton * sn_badgeView;
+@property (nonatomic, strong) SNBadgeView * sn_badgeView;
 
 @end

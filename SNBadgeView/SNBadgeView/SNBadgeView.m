@@ -6,14 +6,14 @@
 //  Copyright © 2018年 snlo. All rights reserved.
 //
 
-#import "SNBadgeButton.h"
+#import "SNBadgeView.h"
 
 #import "SNBadgeViewTool.h"
 
-@implementation SNBadgeButton
+@implementation SNBadgeView
 
 + (instancetype)badgeView {
-    return [[SNBadgeButton alloc] initWithFrame:CGRectMake(0, 0, 8, 8)];
+    return [[SNBadgeView alloc] initWithFrame:CGRectMake(0, 0, 8, 8)];
 }
 
 - (instancetype)initWithFrame:(CGRect)frame
@@ -26,9 +26,19 @@
 }
 
 - (void)configureView {
-    self.backgroundColor = [SNBadgeViewTool sharedManager].hinthColor;
-    self.tintColor = [UIColor whiteColor];
+    if (self.hinthColor) {
+        self.backgroundColor = self.hinthColor;
+    } else {
+        self.backgroundColor = [SNBadgeViewTool sharedManager].hinthColor;
+    }
     self.titleLabel.font = [UIFont systemFontOfSize:11];
+    if (self.numberColor) {
+        self.tintColor = self.numberColor;
+        [self setTitleColor:self.numberColor forState:UIControlStateNormal];
+    } else {
+        self.tintColor = [SNBadgeViewTool sharedManager].numberColor;
+        [self setTitleColor:[SNBadgeViewTool sharedManager].numberColor forState:UIControlStateNormal];
+    }
     self.layer.masksToBounds = YES;
     self.layer.cornerRadius = self.frame.size.width / 2;
     self.contentVerticalAlignment = NSTextAlignmentCenter;
@@ -60,6 +70,17 @@
         self.hidden = YES;
     }
     self.layer.cornerRadius = self.bounds.size.height / 2;
+}
+
+#pragma mark -- setter
+
+- (void)setHinthColor:(UIColor *)hinthColor {
+    _hinthColor = hinthColor;
+    [SNBadgeViewTool sharedManager].hinthColor = _hinthColor;
+}
+- (void)setNumberColor:(UIColor *)numberColor {
+    _numberColor = numberColor;
+    [SNBadgeViewTool sharedManager].numberColor = _numberColor;
 }
 
 @end

@@ -15,18 +15,16 @@
 @implementation UITabBarItem (SNBadgeView)
 
 #pragma mark - badge
-- (void)setSn_badgeView:(SNBadgeButton *)sn_badgeView {
+- (void)setSn_badgeView:(SNBadgeView *)sn_badgeView {
 	[self bottomView].sn_badgeView = sn_badgeView;
 }
 
-- (SNBadgeButton *)sn_badgeView {
+- (SNBadgeView *)sn_badgeView {
 	return [self bottomView].sn_badgeView;
-}   
+}
 
 #pragma mark - 获取Badge的父视图
-
 - (UIView *)bottomView {
-    // 通过Xcode视图调试工具找到UITabBarItem原生Badge所在父视图
     UIView *tabBarButton = [self valueForKey:@"_view"];
     for (UIView *subView in tabBarButton.subviews) {
         if ([NSStringFromClass(subView.superclass) isEqualToString:@"UIImageView"]) {

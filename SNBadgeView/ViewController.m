@@ -10,6 +10,8 @@
 
 #import "SNBadgeView.h"
 
+#import "SNBadgeViewTool.h"
+
 
 @interface ViewController ()
 
@@ -20,7 +22,36 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-//	UIView * view = [[UIView alloc] init];
+    
+    UIButton * button = [UIButton buttonWithType:UIButtonTypeSystem];
+    [button setTitle:@"点我" forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    button.frame = CGRectMake(0, 200, 60, 60);
+    [self.view addSubview:button];
+
+    [SNBadgeView new].numberColor = [UIColor redColor];
+    [SNBadgeView new].hinthColor = [UIColor yellowColor];
+    
+    NSLog(@"%@",button.sn_badgeView);
+    NSLog(@"%@",button.sn_badgeView);
+    
+    [button.sn_badgeView setBadgeValue:23];
+    
+    
+    UIButton * button2 = [UIButton buttonWithType:UIButtonTypeSystem];
+    [button2 setTitle:@"点我2" forState:UIControlStateNormal];
+    [button2 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    button2.frame = CGRectMake(0, 400, 60, 60);
+    [self.view addSubview:button2];
+    
+    [SNBadgeView new].numberColor = [UIColor redColor];
+    [SNBadgeView new].hinthColor = [UIColor blueColor];
+    
+    NSLog(@"%@",button2.sn_badgeView);
+    NSLog(@"%@",button2.sn_badgeView);
+    
+    [button2.sn_badgeView setBadgeValue:23];
+    
 }
 
 
