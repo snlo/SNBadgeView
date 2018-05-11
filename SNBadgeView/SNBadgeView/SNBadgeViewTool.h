@@ -7,15 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-
 #import <UIKit/UIKit.h>
 
-@interface SNBadgeViewTool : NSObject
+#import <SNTool.h>
 
-+ (instancetype)sharedManager;
-
-@property (nonatomic, strong) UIColor * hinthColor;
-
-@property (nonatomic, strong) UIColor * numberColor;
+singletonInterface(SNBadgeViewTool)
 
 @end

@@ -29,13 +29,13 @@
     button.frame = CGRectMake(0, 200, 60, 60);
     [self.view addSubview:button];
 
-    [SNBadgeView new].numberColor = [UIColor redColor];
-    [SNBadgeView new].hinthColor = [UIColor yellowColor];
+    button.sn_badgeView.numberColor = [UIColor redColor];
+    button.sn_badgeView.hinthColor = [UIColor yellowColor];
     
     NSLog(@"%@",button.sn_badgeView);
     NSLog(@"%@",button.sn_badgeView);
     
-    [button.sn_badgeView setBadgeValue:23];
+    [button.sn_badgeView setBadgeValue:21];
     
     
     UIButton * button2 = [UIButton buttonWithType:UIButtonTypeSystem];
@@ -44,8 +44,8 @@
     button2.frame = CGRectMake(0, 400, 60, 60);
     [self.view addSubview:button2];
     
-    [SNBadgeView new].numberColor = [UIColor redColor];
-    [SNBadgeView new].hinthColor = [UIColor blueColor];
+    button2.sn_badgeView.numberColor = [UIColor redColor];
+    button2.sn_badgeView.hinthColor = [UIColor blueColor];
     
     NSLog(@"%@",button2.sn_badgeView);
     NSLog(@"%@",button2.sn_badgeView);

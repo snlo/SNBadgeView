@@ -8,39 +8,6 @@
 
 #import "SNBadgeViewTool.h"
 
-@implementation SNBadgeViewTool
-
-static id instanse;
-
-+ (instancetype)allocWithZone:(struct _NSZone *)zone {
-	static dispatch_once_t onesToken;
-	dispatch_once(&onesToken, ^{
-		instanse = [super allocWithZone:zone];
-	});
-	return instanse;
-}
-+ (instancetype)sharedManager {
-	static dispatch_once_t onestoken;
-	dispatch_once(&onestoken, ^{
-		instanse = [[self alloc] init];
-	});
-	return instanse;
-}
-- (id)copyWithZone:(NSZone *)zone {
-	return instanse;
-};
-
-#pragma mark -- getter //setter
-
-- (UIColor *)hinthColor {
-	if (!_hinthColor) {
-		_hinthColor = [UIColor redColor];
-	} return _hinthColor;
-}
-- (UIColor *)numberColor {
-    if (!_numberColor) {
-        _numberColor = [UIColor whiteColor];
-    } return _numberColor;
-}
+singletonImplemention(SNBadgeViewTool)
 
 @end
