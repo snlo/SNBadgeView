@@ -21,6 +21,9 @@
 		5EB0028B209F9B22003E8AF8 /* UIButton+SNBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB00286209F9B22003E8AF8 /* UIButton+SNBadgeView.m */; };
 		5EB0028C209F9B22003E8AF8 /* UIView+SNBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB00287209F9B22003E8AF8 /* UIView+SNBadgeView.m */; };
 		5EB00292209F9BFC003E8AF8 /* SNBadgeViewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB00291209F9BFC003E8AF8 /* SNBadgeViewTool.m */; };
+		76AAF2A2129888F99C30778D /* libPods-SNBadgeViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C14B3B9A46F5EFB4DD4A5CB1 /* libPods-SNBadgeViewUITests.a */; };
+		A5D5D22CFB365FC9E29F1755 /* libPods-SNBadgeView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E6236A12986E5F91389075E /* libPods-SNBadgeView.a */; };
+		C3E955525273282C651C5FC0 /* libPods-SNBadgeViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBBEF5617CBFFB8272D3737 /* libPods-SNBadgeViewTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1ADCD3C1A3E8044B39F64B97 /* Pods-SNBadgeViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNBadgeViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNBadgeViewTests/Pods-SNBadgeViewTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5EB00237209F6C1A003E8AF8 /* SNBadgeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNBadgeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB0023A209F6C1A003E8AF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5EB0023B209F6C1A003E8AF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -69,6 +73,14 @@
 		5EB00287209F9B22003E8AF8 /* UIView+SNBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SNBadgeView.m"; sourceTree = "<group>"; };
 		5EB00290209F9BFC003E8AF8 /* SNBadgeViewTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNBadgeViewTool.h; sourceTree = "<group>"; };
 		5EB00291209F9BFC003E8AF8 /* SNBadgeViewTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNBadgeViewTool.m; sourceTree = "<group>"; };
+		6E6236A12986E5F91389075E /* libPods-SNBadgeView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNBadgeView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		780C2696149E9DD5B459CB9B /* Pods-SNBadgeView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNBadgeView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNBadgeView/Pods-SNBadgeView.release.xcconfig"; sourceTree = "<group>"; };
+		819F4350C56C3F3D95BE09BE /* Pods-SNBadgeViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNBadgeViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNBadgeViewUITests/Pods-SNBadgeViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9CBBEF5617CBFFB8272D3737 /* libPods-SNBadgeViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNBadgeViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A967881D9AD1A33C499D4197 /* Pods-SNBadgeView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNBadgeView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNBadgeView/Pods-SNBadgeView.debug.xcconfig"; sourceTree = "<group>"; };
+		BF53C88AB8F22B6808BE462A /* Pods-SNBadgeViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNBadgeViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNBadgeViewTests/Pods-SNBadgeViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		C14B3B9A46F5EFB4DD4A5CB1 /* libPods-SNBadgeViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNBadgeViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F86B07DB1B6B6897448994D1 /* Pods-SNBadgeViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNBadgeViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNBadgeViewUITests/Pods-SNBadgeViewUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5D5D22CFB365FC9E29F1755 /* libPods-SNBadgeView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3E955525273282C651C5FC0 /* libPods-SNBadgeViewTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,12 +104,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76AAF2A2129888F99C30778D /* libPods-SNBadgeViewUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03CB56C3FEF068C58E52BC1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E6236A12986E5F91389075E /* libPods-SNBadgeView.a */,
+				9CBBEF5617CBFFB8272D3737 /* libPods-SNBadgeViewTests.a */,
+				C14B3B9A46F5EFB4DD4A5CB1 /* libPods-SNBadgeViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5EB0022E209F6C1A003E8AF8 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +128,8 @@
 				5EB00252209F6C1B003E8AF8 /* SNBadgeViewTests */,
 				5EB0025D209F6C1B003E8AF8 /* SNBadgeViewUITests */,
 				5EB00238209F6C1A003E8AF8 /* Products */,
+				F7204E5E0F1877A50B669DDE /* Pods */,
+				03CB56C3FEF068C58E52BC1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -170,6 +197,19 @@
 			path = SNBadgeView;
 			sourceTree = "<group>";
 		};
+		F7204E5E0F1877A50B669DDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A967881D9AD1A33C499D4197 /* Pods-SNBadgeView.debug.xcconfig */,
+				780C2696149E9DD5B459CB9B /* Pods-SNBadgeView.release.xcconfig */,
+				1ADCD3C1A3E8044B39F64B97 /* Pods-SNBadgeViewTests.debug.xcconfig */,
+				BF53C88AB8F22B6808BE462A /* Pods-SNBadgeViewTests.release.xcconfig */,
+				819F4350C56C3F3D95BE09BE /* Pods-SNBadgeViewUITests.debug.xcconfig */,
+				F86B07DB1B6B6897448994D1 /* Pods-SNBadgeViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -177,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EB00263209F6C1B003E8AF8 /* Build configuration list for PBXNativeTarget "SNBadgeView" */;
 			buildPhases = (
+				41F9600A380E60849EADF111 /* [CP] Check Pods Manifest.lock */,
 				5EB00233209F6C1A003E8AF8 /* Sources */,
 				5EB00234209F6C1A003E8AF8 /* Frameworks */,
 				5EB00235209F6C1A003E8AF8 /* Resources */,
+				D55C1CD9F2AC2E1865E4BA4B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EB00266209F6C1B003E8AF8 /* Build configuration list for PBXNativeTarget "SNBadgeViewTests" */;
 			buildPhases = (
+				BE18A3E9437289ACDF8E37E6 /* [CP] Check Pods Manifest.lock */,
 				5EB0024B209F6C1B003E8AF8 /* Sources */,
 				5EB0024C209F6C1B003E8AF8 /* Frameworks */,
 				5EB0024D209F6C1B003E8AF8 /* Resources */,
@@ -212,6 +255,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EB00269209F6C1B003E8AF8 /* Build configuration list for PBXNativeTarget "SNBadgeViewUITests" */;
 			buildPhases = (
+				E7923F2FFDEBCD1E53738BCB /* [CP] Check Pods Manifest.lock */,
 				5EB00256209F6C1B003E8AF8 /* Sources */,
 				5EB00257209F6C1B003E8AF8 /* Frameworks */,
 				5EB00258209F6C1B003E8AF8 /* Resources */,
@@ -294,6 +338,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41F9600A380E60849EADF111 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SNBadgeView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE18A3E9437289ACDF8E37E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SNBadgeViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D55C1CD9F2AC2E1865E4BA4B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SNBadgeView/Pods-SNBadgeView-resources.sh",
+				"${PODS_ROOT}/SNTool/SNTool/SNTool/SNTool.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SNTool.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SNBadgeView/Pods-SNBadgeView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7923F2FFDEBCD1E53738BCB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SNBadgeViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5EB00233209F6C1A003E8AF8 /* Sources */ = {
@@ -475,10 +594,12 @@
 		};
 		5EB00264209F6C1B003E8AF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A967881D9AD1A33C499D4197 /* Pods-SNBadgeView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SNBadgeView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -491,10 +612,12 @@
 		};
 		5EB00265209F6C1B003E8AF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 780C2696149E9DD5B459CB9B /* Pods-SNBadgeView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SNBadgeView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -507,6 +630,7 @@
 		};
 		5EB00267209F6C1B003E8AF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ADCD3C1A3E8044B39F64B97 /* Pods-SNBadgeViewTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +649,7 @@
 		};
 		5EB00268209F6C1B003E8AF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF53C88AB8F22B6808BE462A /* Pods-SNBadgeViewTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +668,7 @@
 		};
 		5EB0026A209F6C1B003E8AF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 819F4350C56C3F3D95BE09BE /* Pods-SNBadgeViewUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SNBadgeViewUITests/Info.plist;
@@ -560,6 +686,7 @@
 		};
 		5EB0026B209F6C1B003E8AF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F86B07DB1B6B6897448994D1 /* Pods-SNBadgeViewUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SNBadgeViewUITests/Info.plist;

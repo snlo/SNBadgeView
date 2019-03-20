@@ -72,7 +72,7 @@
     self.layer.cornerRadius = self.bounds.size.height / 2;
 }
 
-#pragma mark -- setter
+#pragma mark -- setter / getter
 
 - (void)setcolorHint:(UIColor *)colorHint {
     _colorHint = colorHint;

@@ -20,8 +20,9 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
-	[super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [super viewDidLoad];
+    // Do any additional setup after loading the view, typically from a nib.
+//    pod trunk push SNBadgeView.podspec --verbose --allow-warnings --use-libraries
     
     UIButton * button = [UIButton buttonWithType:UIButtonTypeSystem];
     [button setTitle:@"点我" forState:UIControlStateNormal];
@@ -56,8 +57,8 @@
 
 
 - (void)didReceiveMemoryWarning {
-	[super didReceiveMemoryWarning];
-	// Dispose of any resources that can be recreated.
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 

@@ -1,0 +1,952 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0575C1A9473A4D722FEBCDC506FC0188 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
+		1C76817FA5353D989D7BC33E8C5997B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409899CE1143F81E8130E2069D59605B /* CoreGraphics.framework */; };
+		26650669925ED7F337BCE18E7FE37723 /* Pods-SNBadgeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86564FAD09E249A6E91025541FF63376 /* Pods-SNBadgeView-dummy.m */; };
+		29043A0BB9A3A1CFB57E1C4C5EEAE5EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
+		2A820BBE81F53EAF33ACB0035C4A9F98 /* NSString+SNTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C1EDA7935EDD5EBB03D3B36C2E28FB9A /* NSString+SNTool.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		429E42C0FD8AC5DE5E76FC35E8622D6A /* Singletion.h in Headers */ = {isa = PBXBuildFile; fileRef = 789AB4D595F3D3D06052292D6E077913 /* Singletion.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6837AD005926AB2974513453DB787C5A /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2FA53C873B472A45FE331DA5634F3C /* MBProgressHUD-dummy.m */; };
+		7291E906AE8A3C1F92183154FE65DCDD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7BDB2580B244756CFA046131516EF2 /* QuartzCore.framework */; };
+		7CA40B62BD0FC72ADC8259B87DB041BE /* NSString+SNTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 440AA1CE93E7B2F7E14FB8573661AF0B /* NSString+SNTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		897E2BE6A305D26BEF1B828D55F0F1DC /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = B22F3400BD4E4727DEEDC158B8616B57 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8F0EC9DCCB19CA24958D1DA4B2EA37E9 /* SNTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3BEF2D2A8F61BD0B5EDD74C10C6255 /* SNTool.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		93F12B05D8333C37D9CBEA3D1782CC04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
+		942DAD8ED0E6C22321FA28AB31DDB4BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
+		A266E055CBE3941352F2D641CBD83989 /* SNTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 64DB9AF3A6B603A6D403F0D824F9DEF3 /* SNTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AD22930C248C6B6E147135EF07A07217 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
+		C872B99996FE45CDBFAEFA0B38BB7EC9 /* SNTololMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 61050C90D7C1204834A36691D61690E3 /* SNTololMacro.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CB154B59D8D31B232453D6C638A0F0AE /* Pods-SNBadgeViewTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA53A06D30C076292579969DA60334 /* Pods-SNBadgeViewTests-dummy.m */; };
+		E6EB93F9F0E4C5727BFC3147BA91C599 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE7FFB1970B5870516C0A2492DBAC61 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EAB26C682F32A6E58409B3F4B1DA4DB4 /* SNTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD1B388613F28771075E6A363AD9125 /* SNTool-dummy.m */; };
+		FFB92CC467B8A740437A34397E5BC608 /* Pods-SNBadgeViewUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B5B9D5B18B4B14B23D537E242F18EC /* Pods-SNBadgeViewUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		229A6E1BD30512D2C4C07BFDD12F2D7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 586F2DFA9BDCC6675C2546793A69E5CC;
+			remoteInfo = MBProgressHUD;
+		};
+		A93158FF86A27D9E926B63AD96F9FA32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 586F2DFA9BDCC6675C2546793A69E5CC;
+			remoteInfo = MBProgressHUD;
+		};
+		C80EBABCBB52F9DBC8B5FEEA1A5F2B14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D700FBE8215DF22ECD74A06764670B0;
+			remoteInfo = SNTool;
+		};
+		ED56AE17579BC144BA0F20DBABC2645D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A405CA0C419142BD5B79ADAF927A0D7;
+			remoteInfo = "Pods-SNBadgeView";
+		};
+		F5991B9D641516D87BA566BA414F9718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A405CA0C419142BD5B79ADAF927A0D7;
+			remoteInfo = "Pods-SNBadgeView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03EA53A06D30C076292579969DA60334 /* Pods-SNBadgeViewTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SNBadgeViewTests-dummy.m"; sourceTree = "<group>"; };
+		0ACD21494F03EEFCBB52D80B86EB28E8 /* Pods-SNBadgeView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SNBadgeView-frameworks.sh"; sourceTree = "<group>"; };
+		0D602957AB8FE8DCBDC7040CE24F0FCB /* Pods-SNBadgeViewUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SNBadgeViewUITests-resources.sh"; sourceTree = "<group>"; };
+		1206D978829A9D55F68BAFED25508C92 /* Pods-SNBadgeView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SNBadgeView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		15F3AA45F7FE84EE591BA95907E669C4 /* SNTool.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SNTool.bundle; path = SNTool/SNTool/SNTool.bundle; sourceTree = "<group>"; };
+		17D7986B3703CEFCB40576CBFD86C9C2 /* Pods-SNBadgeView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNBadgeView.release.xcconfig"; sourceTree = "<group>"; };
+		194E1C5CCF1E0035DC7F02F0B8345E84 /* Pods-SNBadgeViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNBadgeViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		22BA71AAB7B5E78778B6E02952B1FB99 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		2A2FA53C873B472A45FE331DA5634F3C /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		30C74AAEDD57462FA1472D71EC80CA85 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMBProgressHUD.a; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F3E5051EFC24C23F3E6E0D7E23A32F /* Pods-SNBadgeViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNBadgeViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B8A8E20047268A011CB7C7EF3D8C7ED /* SNTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SNTool.xcconfig; sourceTree = "<group>"; };
+		409899CE1143F81E8130E2069D59605B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		440AA1CE93E7B2F7E14FB8573661AF0B /* NSString+SNTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SNTool.h"; path = "SNTool/SNTool/NSString+SNTool.h"; sourceTree = "<group>"; };
+		4CE2C546BFAA516F5DB24628C78E94FB /* Pods-SNBadgeViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNBadgeViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4CF6C0592648408284972DCEAA08AF5D /* Pods-SNBadgeViewTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNBadgeViewTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E17381C0522A3465F5ABB03364E94C7 /* Pods-SNBadgeView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNBadgeView.debug.xcconfig"; sourceTree = "<group>"; };
+		5410D2FAA5B1414471E8F93AC4F87C3A /* Pods-SNBadgeViewTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SNBadgeViewTests-resources.sh"; sourceTree = "<group>"; };
+		5F7BDB2580B244756CFA046131516EF2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		61050C90D7C1204834A36691D61690E3 /* SNTololMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SNTololMacro.h; path = SNTool/SNTool/SNTololMacro.h; sourceTree = "<group>"; };
+		64DB9AF3A6B603A6D403F0D824F9DEF3 /* SNTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SNTool.h; path = SNTool/SNTool/SNTool.h; sourceTree = "<group>"; };
+		6E33F5A677FCF37443F96C04C4A5EB38 /* Pods-SNBadgeView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNBadgeView-acknowledgements.plist"; sourceTree = "<group>"; };
+		76B5B9D5B18B4B14B23D537E242F18EC /* Pods-SNBadgeViewUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SNBadgeViewUITests-dummy.m"; sourceTree = "<group>"; };
+		789AB4D595F3D3D06052292D6E077913 /* Singletion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Singletion.h; path = SNTool/SNTool/Singletion.h; sourceTree = "<group>"; };
+		80EF319054295F13B20C45C7886BC1A3 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		8584D088F70A00AF2EBBC546C07C4DEB /* Pods-SNBadgeViewUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SNBadgeViewUITests-frameworks.sh"; sourceTree = "<group>"; };
+		86564FAD09E249A6E91025541FF63376 /* Pods-SNBadgeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SNBadgeView-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BB7B74ECE8823D634DB348C46A2B61B /* Pods-SNBadgeView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SNBadgeView-resources.sh"; sourceTree = "<group>"; };
+		A932B20331D4DD6F95328929B3C8E201 /* libPods-SNBadgeView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SNBadgeView.a"; path = "libPods-SNBadgeView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE7FFB1970B5870516C0A2492DBAC61 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		B0154A43ACDD47F2F6C5978356558EAB /* libPods-SNBadgeViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SNBadgeViewTests.a"; path = "libPods-SNBadgeViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22F3400BD4E4727DEEDC158B8616B57 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		B5051258A97E2822C5382D5303136585 /* Pods-SNBadgeViewUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SNBadgeViewUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B54F9C64455213A6CD453972781E46F4 /* Pods-SNBadgeViewTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SNBadgeViewTests-frameworks.sh"; sourceTree = "<group>"; };
+		B57DD779B3D135D1204BF9C04AFA5E78 /* Pods-SNBadgeViewUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNBadgeViewUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BCC20C586B693D59C1430A0A192B5E29 /* Pods-SNBadgeViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNBadgeViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		BEF2E053B3FCE6300740391FA855FBF9 /* libSNTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSNTool.a; path = libSNTool.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3BEF2D2A8F61BD0B5EDD74C10C6255 /* SNTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SNTool.m; path = SNTool/SNTool/SNTool.m; sourceTree = "<group>"; };
+		C1EDA7935EDD5EBB03D3B36C2E28FB9A /* NSString+SNTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+SNTool.m"; path = "SNTool/SNTool/NSString+SNTool.m"; sourceTree = "<group>"; };
+		DC75D08E4D106C5FBC9672472CD91691 /* Pods-SNBadgeViewTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SNBadgeViewTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F19AF76B7CE3BE368CC73D17441DA74B /* libPods-SNBadgeViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SNBadgeViewUITests.a"; path = "libPods-SNBadgeViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F552BA49EC849AC38672ED823DB4B43E /* SNTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SNTool-prefix.pch"; sourceTree = "<group>"; };
+		FFD1B388613F28771075E6A363AD9125 /* SNTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SNTool-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		709A150DC924B019832BD18B574A7AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942DAD8ED0E6C22321FA28AB31DDB4BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5FB6580CE5427CAC1F10C348A71DAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD22930C248C6B6E147135EF07A07217 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6DBE0E91E46A02671BA49C67A4889C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0575C1A9473A4D722FEBCDC506FC0188 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C054A2EA16ACB5F2BEBBE604EC74AFDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29043A0BB9A3A1CFB57E1C4C5EEAE5EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9AC974E3329F79899A7B3BE290FC894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C76817FA5353D989D7BC33E8C5997B5 /* CoreGraphics.framework in Frameworks */,
+				93F12B05D8333C37D9CBEA3D1782CC04 /* Foundation.framework in Frameworks */,
+				7291E906AE8A3C1F92183154FE65DCDD /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		014E694C92EC765F8EC9319122D2A8FA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B8A8E20047268A011CB7C7EF3D8C7ED /* SNTool.xcconfig */,
+				FFD1B388613F28771075E6A363AD9125 /* SNTool-dummy.m */,
+				F552BA49EC849AC38672ED823DB4B43E /* SNTool-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SNTool";
+			sourceTree = "<group>";
+		};
+		0A258AD7C4C80D865AE3B76196B40674 /* Pods-SNBadgeViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC75D08E4D106C5FBC9672472CD91691 /* Pods-SNBadgeViewTests-acknowledgements.markdown */,
+				4CF6C0592648408284972DCEAA08AF5D /* Pods-SNBadgeViewTests-acknowledgements.plist */,
+				03EA53A06D30C076292579969DA60334 /* Pods-SNBadgeViewTests-dummy.m */,
+				B54F9C64455213A6CD453972781E46F4 /* Pods-SNBadgeViewTests-frameworks.sh */,
+				5410D2FAA5B1414471E8F93AC4F87C3A /* Pods-SNBadgeViewTests-resources.sh */,
+				4CE2C546BFAA516F5DB24628C78E94FB /* Pods-SNBadgeViewTests.debug.xcconfig */,
+				BCC20C586B693D59C1430A0A192B5E29 /* Pods-SNBadgeViewTests.release.xcconfig */,
+			);
+			name = "Pods-SNBadgeViewTests";
+			path = "Target Support Files/Pods-SNBadgeViewTests";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A4DBD434EA75DD3EDD3494C46AE6968 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C4A9AC11D2CFF25168387F3B5472B40 /* Pods-SNBadgeView */ = {
+			isa = PBXGroup;
+			children = (
+				1206D978829A9D55F68BAFED25508C92 /* Pods-SNBadgeView-acknowledgements.markdown */,
+				6E33F5A677FCF37443F96C04C4A5EB38 /* Pods-SNBadgeView-acknowledgements.plist */,
+				86564FAD09E249A6E91025541FF63376 /* Pods-SNBadgeView-dummy.m */,
+				0ACD21494F03EEFCBB52D80B86EB28E8 /* Pods-SNBadgeView-frameworks.sh */,
+				9BB7B74ECE8823D634DB348C46A2B61B /* Pods-SNBadgeView-resources.sh */,
+				4E17381C0522A3465F5ABB03364E94C7 /* Pods-SNBadgeView.debug.xcconfig */,
+				17D7986B3703CEFCB40576CBFD86C9C2 /* Pods-SNBadgeView.release.xcconfig */,
+			);
+			name = "Pods-SNBadgeView";
+			path = "Target Support Files/Pods-SNBadgeView";
+			sourceTree = "<group>";
+		};
+		2D253D4528E161025CF64B32DE4C6677 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C4A9AC11D2CFF25168387F3B5472B40 /* Pods-SNBadgeView */,
+				0A258AD7C4C80D865AE3B76196B40674 /* Pods-SNBadgeViewTests */,
+				955749BCC9DC5EC60995FC03915D6D67 /* Pods-SNBadgeViewUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		34D36C71E8AAA36280725B8E3DB4FE16 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B22F3400BD4E4727DEEDC158B8616B57 /* MBProgressHUD.h */,
+				ADE7FFB1970B5870516C0A2492DBAC61 /* MBProgressHUD.m */,
+				6174B4423FBBB2D4E8B1CE74AB3B144F /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		5A4DBD434EA75DD3EDD3494C46AE6968 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				409899CE1143F81E8130E2069D59605B /* CoreGraphics.framework */,
+				12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */,
+				5F7BDB2580B244756CFA046131516EF2 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6174B4423FBBB2D4E8B1CE74AB3B144F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22BA71AAB7B5E78778B6E02952B1FB99 /* MBProgressHUD.xcconfig */,
+				2A2FA53C873B472A45FE331DA5634F3C /* MBProgressHUD-dummy.m */,
+				80EF319054295F13B20C45C7886BC1A3 /* MBProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				CA97E452F8F289269ABE59BFD6F17A8D /* Pods */,
+				8BCF97BBA12A5374C56A3AA70D328263 /* Products */,
+				2D253D4528E161025CF64B32DE4C6677 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		822C174482AE007BCEA38FF54C53642E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				15F3AA45F7FE84EE591BA95907E669C4 /* SNTool.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8BCF97BBA12A5374C56A3AA70D328263 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30C74AAEDD57462FA1472D71EC80CA85 /* libMBProgressHUD.a */,
+				A932B20331D4DD6F95328929B3C8E201 /* libPods-SNBadgeView.a */,
+				B0154A43ACDD47F2F6C5978356558EAB /* libPods-SNBadgeViewTests.a */,
+				F19AF76B7CE3BE368CC73D17441DA74B /* libPods-SNBadgeViewUITests.a */,
+				BEF2E053B3FCE6300740391FA855FBF9 /* libSNTool.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		955749BCC9DC5EC60995FC03915D6D67 /* Pods-SNBadgeViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5051258A97E2822C5382D5303136585 /* Pods-SNBadgeViewUITests-acknowledgements.markdown */,
+				B57DD779B3D135D1204BF9C04AFA5E78 /* Pods-SNBadgeViewUITests-acknowledgements.plist */,
+				76B5B9D5B18B4B14B23D537E242F18EC /* Pods-SNBadgeViewUITests-dummy.m */,
+				8584D088F70A00AF2EBBC546C07C4DEB /* Pods-SNBadgeViewUITests-frameworks.sh */,
+				0D602957AB8FE8DCBDC7040CE24F0FCB /* Pods-SNBadgeViewUITests-resources.sh */,
+				33F3E5051EFC24C23F3E6E0D7E23A32F /* Pods-SNBadgeViewUITests.debug.xcconfig */,
+				194E1C5CCF1E0035DC7F02F0B8345E84 /* Pods-SNBadgeViewUITests.release.xcconfig */,
+			);
+			name = "Pods-SNBadgeViewUITests";
+			path = "Target Support Files/Pods-SNBadgeViewUITests";
+			sourceTree = "<group>";
+		};
+		CA97E452F8F289269ABE59BFD6F17A8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34D36C71E8AAA36280725B8E3DB4FE16 /* MBProgressHUD */,
+				D20897EBC3D26EA949CD39A90C0DAD1C /* SNTool */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D20897EBC3D26EA949CD39A90C0DAD1C /* SNTool */ = {
+			isa = PBXGroup;
+			children = (
+				440AA1CE93E7B2F7E14FB8573661AF0B /* NSString+SNTool.h */,
+				C1EDA7935EDD5EBB03D3B36C2E28FB9A /* NSString+SNTool.m */,
+				789AB4D595F3D3D06052292D6E077913 /* Singletion.h */,
+				61050C90D7C1204834A36691D61690E3 /* SNTololMacro.h */,
+				64DB9AF3A6B603A6D403F0D824F9DEF3 /* SNTool.h */,
+				BF3BEF2D2A8F61BD0B5EDD74C10C6255 /* SNTool.m */,
+				822C174482AE007BCEA38FF54C53642E /* Resources */,
+				014E694C92EC765F8EC9319122D2A8FA /* Support Files */,
+			);
+			name = SNTool;
+			path = SNTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B1D84BCA4F7BDAE79C37DF88C9DCE23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897E2BE6A305D26BEF1B828D55F0F1DC /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10730736E9DE33ABAB86468065BE423 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA40B62BD0FC72ADC8259B87DB041BE /* NSString+SNTool.h in Headers */,
+				429E42C0FD8AC5DE5E76FC35E8622D6A /* Singletion.h in Headers */,
+				C872B99996FE45CDBFAEFA0B38BB7EC9 /* SNTololMacro.h in Headers */,
+				A266E055CBE3941352F2D641CBD83989 /* SNTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D700FBE8215DF22ECD74A06764670B0 /* SNTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4523FF54704560FDBFE42FE1DD197A8D /* Build configuration list for PBXNativeTarget "SNTool" */;
+			buildPhases = (
+				70F6493E371AC819974C885F1E6DE957 /* Sources */,
+				C054A2EA16ACB5F2BEBBE604EC74AFDC /* Frameworks */,
+				A10730736E9DE33ABAB86468065BE423 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EB1C7264F79A458BF905A9770768BA1 /* PBXTargetDependency */,
+			);
+			name = SNTool;
+			productName = SNTool;
+			productReference = BEF2E053B3FCE6300740391FA855FBF9 /* libSNTool.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		586F2DFA9BDCC6675C2546793A69E5CC /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B44251FA50022CA55D4B2FBE1468C76 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				FCC28E36A289F7E991B78A63CD0251F9 /* Sources */,
+				F9AC974E3329F79899A7B3BE290FC894 /* Frameworks */,
+				1B1D84BCA4F7BDAE79C37DF88C9DCE23 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 30C74AAEDD57462FA1472D71EC80CA85 /* libMBProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		59AE3542A9208F00560A21E762D2056B /* Pods-SNBadgeViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF4270BC431390275CE45B09E21E361 /* Build configuration list for PBXNativeTarget "Pods-SNBadgeViewUITests" */;
+			buildPhases = (
+				DFDE9589BD288F2D0763CB38468F6DE8 /* Sources */,
+				709A150DC924B019832BD18B574A7AFE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A97F0B5F485768490E84679C4239C09B /* PBXTargetDependency */,
+			);
+			name = "Pods-SNBadgeViewUITests";
+			productName = "Pods-SNBadgeViewUITests";
+			productReference = F19AF76B7CE3BE368CC73D17441DA74B /* libPods-SNBadgeViewUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7A405CA0C419142BD5B79ADAF927A0D7 /* Pods-SNBadgeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2101CDF16B42F36198CAE05C2034D52 /* Build configuration list for PBXNativeTarget "Pods-SNBadgeView" */;
+			buildPhases = (
+				8A8EF06A498F553CB975F46AE2590E1D /* Sources */,
+				B6DBE0E91E46A02671BA49C67A4889C7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB1F3EC2F32527373257B58894B4B2DD /* PBXTargetDependency */,
+				B82B8EB624CDEA8FE8A799C9FDDD864A /* PBXTargetDependency */,
+			);
+			name = "Pods-SNBadgeView";
+			productName = "Pods-SNBadgeView";
+			productReference = A932B20331D4DD6F95328929B3C8E201 /* libPods-SNBadgeView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FC0A869BA6136DE91D2C2B628330581F /* Pods-SNBadgeViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF0F3DA750BDE7199F304E0351B6DAA0 /* Build configuration list for PBXNativeTarget "Pods-SNBadgeViewTests" */;
+			buildPhases = (
+				86338B2FC64A5B9A7F2601FD21E687D1 /* Sources */,
+				9B5FB6580CE5427CAC1F10C348A71DAB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C79964EA314A29D53C62A33481AC2EC3 /* PBXTargetDependency */,
+			);
+			name = "Pods-SNBadgeViewTests";
+			productName = "Pods-SNBadgeViewTests";
+			productReference = B0154A43ACDD47F2F6C5978356558EAB /* libPods-SNBadgeViewTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8BCF97BBA12A5374C56A3AA70D328263 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				586F2DFA9BDCC6675C2546793A69E5CC /* MBProgressHUD */,
+				7A405CA0C419142BD5B79ADAF927A0D7 /* Pods-SNBadgeView */,
+				FC0A869BA6136DE91D2C2B628330581F /* Pods-SNBadgeViewTests */,
+				59AE3542A9208F00560A21E762D2056B /* Pods-SNBadgeViewUITests */,
+				2D700FBE8215DF22ECD74A06764670B0 /* SNTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70F6493E371AC819974C885F1E6DE957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A820BBE81F53EAF33ACB0035C4A9F98 /* NSString+SNTool.m in Sources */,
+				EAB26C682F32A6E58409B3F4B1DA4DB4 /* SNTool-dummy.m in Sources */,
+				8F0EC9DCCB19CA24958D1DA4B2EA37E9 /* SNTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86338B2FC64A5B9A7F2601FD21E687D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB154B59D8D31B232453D6C638A0F0AE /* Pods-SNBadgeViewTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A8EF06A498F553CB975F46AE2590E1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26650669925ED7F337BCE18E7FE37723 /* Pods-SNBadgeView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDE9589BD288F2D0763CB38468F6DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB92CC467B8A740437A34397E5BC608 /* Pods-SNBadgeViewUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC28E36A289F7E991B78A63CD0251F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6837AD005926AB2974513453DB787C5A /* MBProgressHUD-dummy.m in Sources */,
+				E6EB93F9F0E4C5727BFC3147BA91C599 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EB1C7264F79A458BF905A9770768BA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 586F2DFA9BDCC6675C2546793A69E5CC /* MBProgressHUD */;
+			targetProxy = 229A6E1BD30512D2C4C07BFDD12F2D7C /* PBXContainerItemProxy */;
+		};
+		A97F0B5F485768490E84679C4239C09B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SNBadgeView";
+			target = 7A405CA0C419142BD5B79ADAF927A0D7 /* Pods-SNBadgeView */;
+			targetProxy = F5991B9D641516D87BA566BA414F9718 /* PBXContainerItemProxy */;
+		};
+		B82B8EB624CDEA8FE8A799C9FDDD864A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SNTool;
+			target = 2D700FBE8215DF22ECD74A06764670B0 /* SNTool */;
+			targetProxy = C80EBABCBB52F9DBC8B5FEEA1A5F2B14 /* PBXContainerItemProxy */;
+		};
+		C79964EA314A29D53C62A33481AC2EC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SNBadgeView";
+			target = 7A405CA0C419142BD5B79ADAF927A0D7 /* Pods-SNBadgeView */;
+			targetProxy = ED56AE17579BC144BA0F20DBABC2645D /* PBXContainerItemProxy */;
+		};
+		CB1F3EC2F32527373257B58894B4B2DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 586F2DFA9BDCC6675C2546793A69E5CC /* MBProgressHUD */;
+			targetProxy = A93158FF86A27D9E926B63AD96F9FA32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03D1EBD7F2BD62E9433BD8C89E6586C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33F3E5051EFC24C23F3E6E0D7E23A32F /* Pods-SNBadgeViewUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14F00A805CB8BD4A51330FB76A07B641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22BA71AAB7B5E78778B6E02952B1FB99 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2BF1682AE8A606E0E52C5B0906DD0E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D7986B3703CEFCB40576CBFD86C9C2 /* Pods-SNBadgeView.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57E0F0C2C5010405F0173A31F71A6393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 194E1C5CCF1E0035DC7F02F0B8345E84 /* Pods-SNBadgeViewUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6875EB9D2EF5521ED479BC2E5687250A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22BA71AAB7B5E78778B6E02952B1FB99 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69142D9BDF47B9779517A9885589D79F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCC20C586B693D59C1430A0A192B5E29 /* Pods-SNBadgeViewTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76CD655FF053E62D042B62377E736151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B8A8E20047268A011CB7C7EF3D8C7ED /* SNTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SNTool/SNTool-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SNTool;
+				PRODUCT_NAME = SNTool;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E31E1D33F668075E2477E3B8CE6D585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E17381C0522A3465F5ABB03364E94C7 /* Pods-SNBadgeView.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB975532EF94935747EE3B13029DFE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B8A8E20047268A011CB7C7EF3D8C7ED /* SNTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SNTool/SNTool-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SNTool;
+				PRODUCT_NAME = SNTool;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F440C90639F368E98777C4D8A35B4DB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CE2C546BFAA516F5DB24628C78E94FB /* Pods-SNBadgeViewTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4523FF54704560FDBFE42FE1DD197A8D /* Build configuration list for PBXNativeTarget "SNTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB975532EF94935747EE3B13029DFE08 /* Debug */,
+				76CD655FF053E62D042B62377E736151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B44251FA50022CA55D4B2FBE1468C76 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6875EB9D2EF5521ED479BC2E5687250A /* Debug */,
+				14F00A805CB8BD4A51330FB76A07B641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2101CDF16B42F36198CAE05C2034D52 /* Build configuration list for PBXNativeTarget "Pods-SNBadgeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E31E1D33F668075E2477E3B8CE6D585 /* Debug */,
+				2BF1682AE8A606E0E52C5B0906DD0E28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF0F3DA750BDE7199F304E0351B6DAA0 /* Build configuration list for PBXNativeTarget "Pods-SNBadgeViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F440C90639F368E98777C4D8A35B4DB9 /* Debug */,
+				69142D9BDF47B9779517A9885589D79F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF4270BC431390275CE45B09E21E361 /* Build configuration list for PBXNativeTarget "Pods-SNBadgeViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D1EBD7F2BD62E9433BD8C89E6586C9 /* Debug */,
+				57E0F0C2C5010405F0173A31F71A6393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
