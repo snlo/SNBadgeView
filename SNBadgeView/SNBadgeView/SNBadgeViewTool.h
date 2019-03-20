@@ -12,10 +12,21 @@
 
 @interface SNBadgeViewTool : NSObject
 
+/**
+ 初始化
+
+ @return 单例
+ */
 + (instancetype)sharedManager;
 
-@property (nonatomic, strong) UIColor * hinthColor;
+/**
+ 暗示颜色
+ */
+@property (nonatomic, strong) UIColor * colorHint;
 
-@property (nonatomic, strong) UIColor * numberColor;
+/**
+ 数值颜色
+ */
+@property (nonatomic, strong) UIColor * colorNumber;
 
 @end

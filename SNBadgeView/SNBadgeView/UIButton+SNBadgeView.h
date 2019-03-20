@@ -12,6 +12,9 @@
 
 @interface UIButton (SNBadgeView)
 
+/**
+ 标记视图
+ */
 @property (nonatomic) SNBadgeView * sn_badgeView;
 
 @end

@@ -18,13 +18,13 @@
 /**
  暗示颜色设置，默认红色
  */
-@property (nonatomic, strong) UIColor * hinthColor;
+@property (nonatomic, strong) UIColor * colorHint;
 
 
 /**
  数字色，默认白色
  */
-@property (nonatomic, strong) UIColor * numberColor;
+@property (nonatomic, strong) UIColor * colorNumber;
 
 /**
  设置标记值

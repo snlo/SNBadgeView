@@ -12,6 +12,9 @@
 
 @interface UIView (SNBadgeView)
 
+/**
+ 标记视图
+ */
 @property (nonatomic, strong) SNBadgeView * sn_badgeView;
 
 @end

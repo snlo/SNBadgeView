@@ -32,15 +32,15 @@ static id instanse;
 
 #pragma mark -- getter //setter
 
-- (UIColor *)hinthColor {
-	if (!_hinthColor) {
-		_hinthColor = [UIColor redColor];
-	} return _hinthColor;
+- (UIColor *)colorHint {
+	if (!_colorHint) {
+		_colorHint = [UIColor redColor];
+	} return _colorHint;
 }
-- (UIColor *)numberColor {
-    if (!_numberColor) {
-        _numberColor = [UIColor whiteColor];
-    } return _numberColor;
+- (UIColor *)colorNumber {
+    if (!_colorNumber) {
+        _colorNumber = [UIColor whiteColor];
+    } return _colorNumber;
 }
 
 @end

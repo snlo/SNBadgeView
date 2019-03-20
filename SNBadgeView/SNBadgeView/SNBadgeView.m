@@ -26,18 +26,18 @@
 }
 
 - (void)configureView {
-    if (self.hinthColor) {
-        self.backgroundColor = self.hinthColor;
+    if (self.colorHint) {
+        self.backgroundColor = self.colorHint;
     } else {
-        self.backgroundColor = [SNBadgeViewTool sharedManager].hinthColor;
+        self.backgroundColor = [SNBadgeViewTool sharedManager].colorHint;
     }
     self.titleLabel.font = [UIFont systemFontOfSize:11];
-    if (self.numberColor) {
-        self.tintColor = self.numberColor;
-        [self setTitleColor:self.numberColor forState:UIControlStateNormal];
+    if (self.colorNumber) {
+        self.tintColor = self.colorNumber;
+        [self setTitleColor:self.colorNumber forState:UIControlStateNormal];
     } else {
-        self.tintColor = [SNBadgeViewTool sharedManager].numberColor;
-        [self setTitleColor:[SNBadgeViewTool sharedManager].numberColor forState:UIControlStateNormal];
+        self.tintColor = [SNBadgeViewTool sharedManager].colorNumber;
+        [self setTitleColor:[SNBadgeViewTool sharedManager].colorNumber forState:UIControlStateNormal];
     }
     self.layer.masksToBounds = YES;
     self.layer.cornerRadius = self.frame.size.width / 2;
@@ -74,13 +74,13 @@
 
 #pragma mark -- setter
 
-- (void)setHinthColor:(UIColor *)hinthColor {
-    _hinthColor = hinthColor;
-    [SNBadgeViewTool sharedManager].hinthColor = _hinthColor;
+- (void)setcolorHint:(UIColor *)colorHint {
+    _colorHint = colorHint;
+    [SNBadgeViewTool sharedManager].colorHint = _colorHint;
 }
-- (void)setNumberColor:(UIColor *)numberColor {
-    _numberColor = numberColor;
-    [SNBadgeViewTool sharedManager].numberColor = _numberColor;
+- (void)setcolorNumber:(UIColor *)colorNumber {
+    _colorNumber = colorNumber;
+    [SNBadgeViewTool sharedManager].colorNumber = _colorNumber;
 }
 
 @end
