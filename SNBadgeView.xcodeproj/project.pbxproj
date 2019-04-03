@@ -221,7 +221,6 @@
 				5EB00233209F6C1A003E8AF8 /* Sources */,
 				5EB00234209F6C1A003E8AF8 /* Frameworks */,
 				5EB00235209F6C1A003E8AF8 /* Resources */,
-				D55C1CD9F2AC2E1865E4BA4B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -374,24 +373,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D55C1CD9F2AC2E1865E4BA4B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SNBadgeView/Pods-SNBadgeView-resources.sh",
-				"${PODS_ROOT}/SNTool/SNTool/SNTool/SNTool.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SNTool.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SNBadgeView/Pods-SNBadgeView-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E7923F2FFDEBCD1E53738BCB /* [CP] Check Pods Manifest.lock */ = {

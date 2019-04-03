@@ -16,13 +16,13 @@
 + (instancetype)badgeView;
 
 /**
- 暗示颜色设置，默认红色
+ 暗示颜色设置，默认红色，在设置标记值之前有效
  */
 @property (nonatomic, strong) UIColor * colorHint;
 
 
 /**
- 数字色，默认白色
+ 数字色，默认白色，在设置标记值之前有效
  */
 @property (nonatomic, strong) UIColor * colorNumber;
 
